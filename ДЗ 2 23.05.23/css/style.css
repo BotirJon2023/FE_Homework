@@ -1,0 +1,24 @@
+body {
+   margin: 60px;
+}
+
+table,
+td,
+th {
+   border: 1px solid;
+   color: black;
+
+}
+ ul {
+   font-size: 20px;
+ }
+
+table {
+   border-collapse: collapse;
+   margin: 20px;
+   font-size: 20px;
+}
+
+.flag {
+   width: 50px;
+}
