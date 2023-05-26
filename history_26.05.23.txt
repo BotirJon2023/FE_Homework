@@ -1,0 +1,82 @@
+   0 ls
+   1 ls /
+   2 ls -l
+   3 ls -la
+   4 ls -la /
+   5 pwd
+   6 ls -la /usr
+   7 pwd
+   8 ls -la /usr/local
+   9 cd /home
+  10 mkdir animals
+  11 ls
+  12 cd /animals
+  13 ls -al
+  14 cd animals
+  15 mkdir dogs
+  16 mkdir cats
+  17 mkdir fish
+  18 cd dogs
+  19 touch pluto
+  20 ..cd
+  21 cd /animals
+  22 .cd
+  23 cd /root /home /animals
+  24 pwd
+  25 cd /home/animals
+  26 pwd
+  27 cd /fish
+  28 cd/fish
+  29 cd fich
+  30 cd fish
+  31 touch nemo
+  32 cd animals
+  33 cd root
+  34 ..cd
+  35 cd home
+  36 cd /home
+  37 cd animals
+  38 cd cats
+  39 touch gargield
+  40 tree
+  41 cd home
+  42 cd /home
+  43 tree
+  44 cd tmp
+  45 ls -la
+  46 cd /root
+  47 ls -la
+  48 cd home
+  49 cd /home
+  50 mkdir tmp
+  51 cd tmp
+  52 touch adam
+  53 cd /home
+  54 mkdir humans
+  55 cd tmp
+  56 cp adam /root/home/humans
+  57 cp adam /humans
+  58 cd root
+  59 cp adam.txt /home/humans
+  60 cp adam /home/humans
+  61 touch avA
+  62 tree
+  63 cp evA /opt/eve
+  64 cp evA /opt/eve /home/humans
+  65 cp evA /home/humans/eve
+  66 ls
+  67 touch evA
+  68 rm avA
+  69 ls
+  70 cp evA /home/humans
+  71 tree
+  72 cd /home
+  73 tree
+  74 cd /home/humans
+  75 rm evA
+  76 cd /home/tmp
+  77 cp evA /home/humans/eve
+  78 cd /home
+  79 tree
+  80 cd /root
+  81 history > history_26.05.23.txt
