@@ -1,0 +1,54 @@
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    background-color: goldenrod;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.Post-1 {
+    background-color: blueviolet;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 21px;
+}
+
+.Post-2 {
+    background-color: aquamarine;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 5px solid;
+    border-color: #e80808;
+    border-radius: 21px;
+}
+
+.Post-3 {
+    background-color: brown;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 5px solid;
+    border-color: #12d312;
+    border-radius: 21px;
+}
+
+p {}
+img {
+    width: 700px;
+    display: block;
+    margin-top: 40px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: ;
+    padding-bottom: ;
+    width: 50%;
+
+}
