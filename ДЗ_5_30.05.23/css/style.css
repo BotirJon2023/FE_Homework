@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+    padding-left: 400px;
+
+}
+
+nav {
+    position: relative;
+
+
+}
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.item-1 {
+    background-color: red;
+
+}
+.item-2 {
+background-color: blue;
+position: relative;
+left: 100px;
+bottom: 100px;
+}
+.item-3 {
+background-color: green;
+position: relative;
+left: 50px;
+bottom: 350px;
+
+}
+
+.item-3:hover {
+    transform: rotate(-45deg);
+    height: 300px;
+    width: 300px;
+    transition: 2s;
+}
