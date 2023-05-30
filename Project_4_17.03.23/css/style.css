@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    background-color: goldenrod;
+    margin-bottom: 30px;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    color: black;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+.sum {
+    color: brown;
+    
+}
+
+.line-1, .line-3, .line-5 {
+    background-color: gray;
+}
