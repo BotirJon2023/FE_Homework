@@ -1,0 +1,10 @@
+h1 {
+    margin-bottom: 0px;
+}
+
+figure {
+    width: 400px;
+    aspect-ratio: 1;
+    border: 10px solid blue;
+
+}
