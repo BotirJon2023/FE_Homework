@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+header { background-color: rgb(104, 104, 175);
+    padding: 20px;
+
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    }
+h1:hover {
+    color: brown;
+}
+
+
+body {
+
+}
+
+main {
+    display: flex;
+    margin: center;
+    flex-wrap: wrap; 
+    padding: 10px;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 5px black;
+
+    
+}
+
+.item {
+    width: calc(50% - 20px);
+    height: 500px;
+    margin: 10px;
+    aspect-ratio: 16/9;
+    background-color: rgb(19, 232, 44);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.item:hover {
+    transform: scale(1.05);
+    transform: rotate(5deg);
+    transition: 1s;
+}
+
+.item-1 {
+    background-image: url(../img/Panda.jpg);
+}
+.item-2 {
+    background-image: url(../img/monkey.jpg);
+}.item-3 {
+    background-image: url(../img/Tiger.jpg);
+}.item-4 {
+    background-image: url(../img/snake.jpg);
+}.item-5 {
+    background-image: url(../img/Богомол.jpg);
+}.item-6 {
+    background-image: url(../img/Master_Shifu.jpg);
+}.item-7 {
+    background-image: url(../img/bad\ guy.jpg);
+}.item-8 {
+    background-image: url(../img/bad\ guy\ 2.jpg);
+}
+
+p {
+
+}
+
+
