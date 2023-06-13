@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 50%;
+    background-color: khaki;
+    margin-bottom: 35px;
+}
+
+.a {
+    background-color: blue;
+}
+
