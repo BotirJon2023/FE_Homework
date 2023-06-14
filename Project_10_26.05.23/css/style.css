@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+section {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    border-radius: 16px;
+
+}
+html, body {
+    height: 100%;} 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-close {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px 
+}
+
+p:not(:last-child)  {
+ margin-bottom: 10px;   
+}
+
+.text-right {
+    text-align: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    outline: none;
+
+}
+.password-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.text-small {
+    font-size: 12px;
+    color: gray;
+}
+
+.Register {
+    background-color: gold;
+    border: none;
+    border-radius: 55px;
+    padding: 10px 0; 
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Enter {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 55px;
+    padding: 10px 0; 
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
