@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+figure {
+    height: 100%;
+    width: 100%;
+    line-height: 0px;
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form {
+    width: 250px;
+    aspect-ratio: 1/2;
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
