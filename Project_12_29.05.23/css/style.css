@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.item-1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    z-index: -1;
+
+}
+
+
+.item-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(253, 11, 11);
+    left: 200px;
+    top: 100px;
+}
+
+.item-3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(241, 220, 31);
+    left: 300px;
+    top: 100px;
+}
